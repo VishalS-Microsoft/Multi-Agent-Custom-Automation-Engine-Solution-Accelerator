@@ -3,6 +3,6 @@
 pip install --upgrade pip
 
 
-(cd ./src/frontend; pip install -r requirements.txt)
+(cd ./src/frontend; pip install --no-cache-dir -r requirements.txt)
 
-(cd ./src/backend; pip install -r requirements.txt)
+(cd ./src/backend; pip install --no-cache-dir -r requirements.txt)
